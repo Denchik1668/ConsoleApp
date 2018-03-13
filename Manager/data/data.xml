@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <account id="gl0" name="google" date-created="7/29/2015 5:32:06 PM">
+        <login>log</login>
+        <email>some@gmail.com</email>
+        <password>4321.</password>
+    </account>
+    <account id="gl1" name="google" date-created="1/29/2017 3:36:06 PM">
+        <login>log19</login>
+        <email>some@gmail.com</email>
+        <password>55765.</password>
+    </account>
+    <account id="ms0" name="microsoft" date-created="3/29/2018 7:12:06 PM">
+        <login>log</login>
+        <email>some@cia.od.ua</email>
+        <password>1234.</password>
+    </account>
+    
+    
+</configuration>

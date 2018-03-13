@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <exit>
+    <command>exit</command>
+    <discription>exit form console.</discription>
+    <use>[exit][/?f] where first is command and second parameters.</use>
+    <parameters>
+      <help>? - get help about this command;</help>
+      <force>f - force exit</force>
+    </parameters>
+    <property>none</property>
+    <example>
+      <discription>forse complite work save changes and exit console.</discription>
+      <command>[exit /f]</command>
+    </example>
+    <alias></alias>
+    <date-created>1/29/2018 5:32:06 PM</date-created>
+  </exit>
+  <clear>
+    <command>clear</command>
+    <discription>clean console.</discription>
+    <use>[clean][/?] where first is command and parameters.</use>
+    <parameters>
+      <help>? - get help about this command;</help>
+    </parameters>
+    <property>none</property>
+    <alias>cls</alias>
+    <example>
+      <discription>clean console.</discription>
+      <command>[clear]</command>
+    </example>
+    <date-created>1/29/2018 5:32:06 PM</date-created>
+  </clear>
+  <alias>
+    <command>alias</command>
+    <discription>Set alias to commands (only command without parameters).</discription>
+    <use>[alias][$key=value$...][/?arf] where alias is command and parameters.</use>
+    <parameters>
+      <help>? - get help about this command;</help>
+      <add>a - set alias</add>
+      <remove>r - remove alias</remove>
+      <force>f - force remove/set</force>
+    </parameters>
+    <property>have</property>
+    <alias></alias>
+    <example>
+      <discription>Set aliases by force.</discription>
+      <command>[alais][$help=?$print=get][/af]</command>
+    </example>
+    <date-created>1/29/2018 5:32:06 PM</date-created>
+  </alias>
+  <print>
+    <command>print</command>
+    <discription>Get accaunt(s)</discription>
+    <use>[print][$key=value$...][/?lidn] where print is command, key-value are property and parameters.</use>
+    <parameters>
+      <help>? - get help about this command;</help>
+      <list>l - get list of accaunts</list>
+      <all>a - get full info of accaunts</all>
+    </parameters>
+    <property>name,id,login</property>
+    <alias>get</alias>
+    <example>
+      <discription>Get list accaunts by name.</discription>
+      <command>[print][$name=google]</command>
+    </example>
+    <date-created>1/29/2018 5:32:06 PM</date-created>
+  </print>
+  <remove>
+    <command>remove</command>
+    <alias>rm</alias>
+    <discription>This command is under development</discription>
+  </remove>
+  <add>
+    <command>add</command>
+    <alias></alias>
+    <discription>This command is under development</discription>
+  </add>
+  <help>
+    <command>help</command>
+    <discription>Get help about command shell.</discription>
+    <use>[help][/?l] where alias is command and parameters.</use>
+    <parameters>
+      <help>? - get help about this command;</help>
+      <list>l - list commands</list>
+    </parameters>
+    <property>none</property>
+    <alias>?</alias>
+    <example>
+      <discription>Get list commands.</discription>
+      <command>[help /l]</command>
+    </example>
+    <date-created>1/29/2018 5:32:06 PM</date-created>
+  </help>
+</configuration>
